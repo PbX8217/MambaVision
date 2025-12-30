@@ -1,0 +1,8 @@
+**/__pycache__
+**/log_dir
+**/output
+**/*.pth
+**/*.pth.tar
+models/
+semantic_segmentation/
+object_detection/coco/
