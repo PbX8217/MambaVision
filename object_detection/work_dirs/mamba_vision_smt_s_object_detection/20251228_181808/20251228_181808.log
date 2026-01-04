@@ -716,7 +716,7 @@ visualizer = dict(
             save_dir='./log_dirs/mamba_vision_smt_s_object_detection',
             type='LocalVisBackend'),
     ])
-work_dir = '../work_dirs/mamba_vision_smt_s_object_detection'
+work_dir = './work_dirs/mamba_vision_smt_s_object_detection'
 
 2025/12/28 18:18:13 - mmengine - INFO - Hooks will be executed in the following order:
 before_run:

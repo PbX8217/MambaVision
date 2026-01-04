@@ -716,7 +716,7 @@ visualizer = dict(
             save_dir='./log_dirs/mamba_vision_s_object_detection',
             type='LocalVisBackend'),
     ])
-work_dir = '../work_dirs/mamba_vision_s_object_detection'
+work_dir = './work_dirs/mamba_vision_s_object_detection'
 
 2025/12/11 00:18:02 - mmengine - INFO - Distributed training is not used, all SyncBatchNorm (SyncBN) layers in the model will be automatically reverted to BatchNormXd layers if they are used.
 2025/12/11 00:18:02 - mmengine - INFO - Hooks will be executed in the following order:

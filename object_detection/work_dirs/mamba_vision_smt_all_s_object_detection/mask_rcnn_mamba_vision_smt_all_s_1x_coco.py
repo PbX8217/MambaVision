@@ -240,7 +240,6 @@ model = dict(
 num_gpus = 4
 optim_wrapper = dict(
     accumulative_counts=2,
-    loss_scale='dynamic',
     optimizer=dict(
         betas=(
             0.9,
@@ -673,4 +672,4 @@ visualizer = dict(
             save_dir='./log_dirs/mamba_vision_smt_all_s_object_detection',
             type='LocalVisBackend'),
     ])
-work_dir = '../work_dirs/mamba_vision_smt_all_s_object_detection'
+work_dir = './work_dirs/mamba_vision_smt_all_s_object_detection'

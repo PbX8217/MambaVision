@@ -673,4 +673,4 @@ visualizer = dict(
             save_dir='./log_dirs/mamba_vision_smt_s_object_detection',
             type='LocalVisBackend'),
     ])
-work_dir = '../work_dirs/mamba_vision_smt_s_object_detection'
+work_dir = './work_dirs/mamba_vision_smt_s_object_detection'
